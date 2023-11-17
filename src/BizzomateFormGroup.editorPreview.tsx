@@ -14,10 +14,10 @@ export function preview(props: BizzomateFormGroupPreviewProps): ReactElement {
         <div ref={parentInline}>
             <div
                 className={props.innerClass ? props.innerClass : undefined}
-                style={props.innerStyle ? parseInlineStyle(props.innerStyle) : undefined}>
+                style={props.innerStyle ? parseInlineStyle(props.innerStyle) : undefined}
+            >
                 {props.content.renderer}
             </div>
         </div>
     );
 }
-

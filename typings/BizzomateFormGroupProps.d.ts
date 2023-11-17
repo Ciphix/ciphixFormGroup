@@ -11,7 +11,7 @@ export interface BizzomateFormGroupContainerProps {
     name: string;
     tabIndex?: number;
     id: string;
-    content: ReactNode;
+    content?: ReactNode;
     innerClass: string;
     innerStyle: string;
     linkedAttribute?: EditableValue<Big | any | boolean | Date | string>;

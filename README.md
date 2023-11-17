@@ -1,24 +1,15 @@
 ## BizzomateFormGroup
-[Widget to create a form group, but with custom content]
+Use this widget to create form groups that look just like the default ones from Mendix, but with custom content.
 
 ## Features
-[feature highlights]
+- Add completely custom content somewhere in a form, but make it look like a form element
+- Catch and display validation feedback of any attribute/assocation, without having to add an input element
 
 ## Usage
-[step by step instructions]
-
-## Demo project
-[link to sandbox]
+- Add to the page
+- Configure label (yes/no, content)
+- Configure if and what validation feedback needs to be shown
+- Enjoy your added Mendix powers!
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
+https://github.com/bizzomate/bizzomateFormGroup

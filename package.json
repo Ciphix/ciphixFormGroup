@@ -3,14 +3,14 @@
   "widgetName": "BizzomateFormGroup",
   "version": "1.0.0",
   "description": "Widget to create a form group, but with custom content",
-  "copyright": "© Bizzomate BV 2022. All rights reserved.",
+  "copyright": "© Bizzomate BV 2023. All rights reserved.",
   "author": "Jelle Dekker",
   "engines": {
     "node": ">=16"
   },
   "license": "Apache-2.0",
   "config": {
-    "projectPath": "./tests/testProject",
+    "projectPath": "C:/Mendix/WidgetTest-main",
     "mendixHost": "http://localhost:8080",
     "developmentPort": 3000
   },
@@ -25,7 +25,7 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0",
+    "@mendix/pluggable-widgets-tools": "^9.18.0",
     "@types/big.js": "^6.0.2",
     "@types/react": "~17.0.1",
     "@types/react-dom": "~17.0.1"
