@@ -1,4 +1,4 @@
-## BizzomateFormGroup
+## CiphixFormGroup
 Use this widget to create form groups that look just like the default ones from Mendix, but with custom content.
 
 ## Features
@@ -12,4 +12,4 @@ Use this widget to create form groups that look just like the default ones from 
 - Enjoy your added Mendix powers!
 
 ## Issues, suggestions and feature requests
-https://github.com/bizzomate/bizzomateFormGroup
+https://github.com/ciphix/ciphixFormGroup
