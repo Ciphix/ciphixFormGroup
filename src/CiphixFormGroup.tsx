@@ -1,9 +1,9 @@
 import { ReactElement, createElement, Fragment } from "react";
 import { parseInlineStyle } from "@mendix/pluggable-widgets-tools";
-import { BizzomateFormGroupContainerProps } from "../typings/BizzomateFormGroupProps";
+import { CiphixFormGroupContainerProps } from "../typings/CiphixFormGroupProps";
 import { Alert } from "./components/Alert";
 
-export function BizzomateFormGroup(props: BizzomateFormGroupContainerProps): ReactElement {
+export function CiphixFormGroup(props: CiphixFormGroupContainerProps): ReactElement {
     const validationFeedback = props.linkedAssociation?.validation
         ? props.linkedAssociation?.validation
         : props.linkedAttribute?.validation;

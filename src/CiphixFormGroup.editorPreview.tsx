@@ -1,5 +1,5 @@
 import { ReactElement, createElement } from "react";
-import { BizzomateFormGroupPreviewProps } from "../typings/BizzomateFormGroupProps";
+import { CiphixFormGroupPreviewProps } from "../typings/CiphixFormGroupProps";
 import { parseInlineStyle } from "@mendix/pluggable-widgets-tools";
 
 function parentInline(node?: HTMLElement | null): void {
@@ -9,15 +9,15 @@ function parentInline(node?: HTMLElement | null): void {
     }
 }
 
-export function preview(props: BizzomateFormGroupPreviewProps): ReactElement {
+export function preview(props: CiphixFormGroupPreviewProps): ReactElement {
     return (
         <div ref={parentInline}>
-            <div
-                className={props.innerClass ? props.innerClass : undefined}
-                style={props.innerStyle ? parseInlineStyle(props.innerStyle) : undefined}
-            >
-                {props.content.renderer}
-            </div>
+            <props.content.renderer caption="Tooltip: Place widgets here">
+                <div
+                    className={props.innerClass ? props.innerClass : undefined}
+                    style={props.innerStyle ? parseInlineStyle(props.innerStyle) : undefined}
+                ></div>
+            </props.content.renderer>
         </div>
     );
 }

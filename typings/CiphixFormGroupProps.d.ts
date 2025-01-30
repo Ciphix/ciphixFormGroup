@@ -1,13 +1,13 @@
 /**
- * This file was generated from BizzomateFormGroup.xml
+ * This file was generated from CiphixFormGroup.xml
  * WARNING: All changes made to this file will be overwritten
- * @author Mendix UI Content Team
+ * @author Mendix Widgets Framework Team
  */
 import { ComponentType, ReactNode } from "react";
 import { EditableValue, ListValue, ReferenceValue, ReferenceSetValue } from "mendix";
 import { Big } from "big.js";
 
-export interface BizzomateFormGroupContainerProps {
+export interface CiphixFormGroupContainerProps {
     name: string;
     tabIndex?: number;
     id: string;
@@ -19,12 +19,14 @@ export interface BizzomateFormGroupContainerProps {
     objectsDatasource?: ListValue;
 }
 
-export interface BizzomateFormGroupPreviewProps {
+export interface CiphixFormGroupPreviewProps {
     readOnly: boolean;
-    content: { widgetCount: number; renderer: ComponentType<{ caption?: string }> };
+    renderMode: "design" | "xray" | "structure";
+    translate: (text: string) => string;
+    content: { widgetCount: number; renderer: ComponentType<{ children: ReactNode; caption?: string }> };
     innerClass: string;
     innerStyle: string;
     linkedAttribute: string;
     linkedAssociation: string;
-    objectsDatasource: {} | { type: string } | null;
+    objectsDatasource: {} | { caption: string } | { type: string } | null;
 }
