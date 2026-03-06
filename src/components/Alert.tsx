@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { createElement, FunctionComponent } from "react";
 import classNames from "classnames";
 export interface AlertProps {
     alertStyle?: "default" | "primary" | "success" | "info" | "warning" | "danger";
