@@ -1,4 +1,4 @@
-import { ReactElement, createElement, Fragment } from "react";
+import { ReactElement, Fragment } from "react";
 import { parseInlineStyle } from "@mendix/pluggable-widgets-tools";
 import { CiphixFormGroupContainerProps } from "../typings/CiphixFormGroupProps";
 import { Alert } from "./components/Alert";

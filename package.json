@@ -6,7 +6,7 @@
   "copyright": "© Ciphix IO 2025. All rights reserved.",
   "author": "Jelle Dekker",
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "license": "Apache-2.0",
   "config": {
@@ -25,16 +25,10 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^10.15.0",
+    "@mendix/pluggable-widgets-tools": "^11.6.0",
     "@types/big.js": "^6.0.2"
   },
   "dependencies": {
     "classnames": "^2.2.6"
-  },
-  "resolutions": {
-    "react": "18.2.0"
-  },
-  "overrides": {
-    "react": "18.2.0"
   }
 }
